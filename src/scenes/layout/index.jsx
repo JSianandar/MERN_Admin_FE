@@ -6,7 +6,7 @@ import Navbar from "components/Navbar";
 import Sidebar from "components/Sidebar";
 import { useGetUserQuery } from "state/api";
 
-const test = process.env.REACT_APP_BASE_URL;
+// const test = process.env.REACT_APP_BASE_URL;
 
 const Layout = () => {
   const isNonMobile = useMediaQuery("(min-width: 600px)");
